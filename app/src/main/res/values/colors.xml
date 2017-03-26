@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backroundLayout">#0C0704</color>
+    <color name="questionsTextColor">#FFFFFF</color>
+    <color name="stripe">#FFF15F</color>
+    <color name="answerButton">#E5B456</color>
+    <color name="colorAccent2">#E5B456</color>
+    <color name="editTextBackground">#4C1101</color>
+    <color name="toast">#B3000000</color>
+</resources>
+

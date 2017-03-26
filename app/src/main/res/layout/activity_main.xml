@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollLayout"
+    tools:context="com.example.android.quiz.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/parentLayout">
+
+        <ImageView
+            android:id="@+id/piano"
+            style="@style/imageView" />
+
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/questions"
+            android:text="@string/question1" />
+
+
+        <RadioGroup
+            android:id="@+id/group1"
+            style="@style/answersRadioGroup">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/seventeen"
+                style="@style/answerButtons"
+                android:text="@string/question1answer1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/twentyone"
+                style="@style/answerButtons.middle"
+                android:text="@string/question1answer2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/twentythree"
+                style="@style/answerButtons"
+                android:text="@string/question1answer3" />
+
+
+        </RadioGroup>
+
+        <View style="@style/stripe" />
+
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/questions"
+            android:text="@string/question2" />
+
+        <LinearLayout
+            android:id="@+id/check"
+            style="@style/linearLayoutVertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/Rigoletto"
+                style="@style/answerButtons"
+                android:text="@string/question2answer1" />
+
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/Pagliacci"
+                style="@style/answerButtons.margin"
+                android:text="@string/question2answer2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/Traviata"
+                style="@style/answerButtons"
+                android:text="@string/question2answer3" />
+
+
+        </LinearLayout>
+
+        <View style="@style/stripe" />
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/questions.question3"
+            android:text="@string/question3" />
+
+        <ImageView style="@style/stave" />
+
+        <EditText
+            android:id="@+id/composer"
+            style="@style/inputTextField" />
+
+
+        <View style="@style/stripe.editText" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question4" />
+
+
+        <RadioGroup
+            android:id="@+id/group2"
+            style="@style/answersRadioGroupVertical">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/Berlioz"
+                style="@style/answerButtons"
+                android:text="@string/question4answer1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/Bartok"
+                style="@style/answerButtons.margin"
+                android:text="@string/question4answer2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/Beethoven"
+                style="@style/answerButtons"
+                android:text="@string/question4answer3" />
+
+
+        </RadioGroup>
+
+        <View style="@style/stripe" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question5" />
+
+        <LinearLayout style="@style/linearLayoutVertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/nutcracker"
+                style="@style/answerButtons"
+                android:text="@string/question5answer1" />
+
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/paganini"
+                style="@style/answerButtons.margin"
+                android:text="@string/question5answer2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/aleko"
+                style="@style/answerButtons"
+                android:text="@string/question5answer3" />
+        </LinearLayout>
+
+        <View style="@style/stripe" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question6" />
+
+        <LinearLayout style="@style/linearLayoutHorizontal">
+
+            <ImageButton
+                android:id="@+id/play"
+                style="@style/playerButtons"
+                android:background="@drawable/playbutton" />
+
+            <ImageButton
+                android:id="@+id/pause"
+                style="@style/playerButtons.middle"
+                android:background="@drawable/pausebutton" />
+
+            <ImageButton
+                android:id="@+id/stop"
+                style="@style/playerButtons"
+                android:background="@drawable/stopbutton" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/group3"
+            style="@style/answersRadioGroupVertical.2">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/tchaikovsky"
+                style="@style/answerButtons"
+                android:text="@string/question6asnwer1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/grieg"
+                style="@style/answerButtons.margin"
+                android:text="@string/question6answer2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rachmaninoff"
+                style="@style/answerButtons"
+                android:text="@string/question6answer3" />
+
+
+        </RadioGroup>
+
+
+        <View style="@style/stripe" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question7" />
+
+
+        <LinearLayout style="@style/linearLayoutVertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/tosca"
+                style="@style/answerButtons"
+                android:text="@string/question7answer1" />
+
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/theBarberOfSeville"
+                style="@style/answerButtons.margin"
+                android:text="@string/question7answer2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/boheme"
+                style="@style/answerButtons"
+                android:text="@string/question7answer3" />
+
+        </LinearLayout>
+
+        <View style="@style/stripe" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question8" />
+
+        <RadioGroup
+            android:id="@+id/group4"
+            style="@style/answersRadioGroupVertical">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/strauss"
+                style="@style/answerButtons"
+                android:text="@string/question8answer1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/schoenberg"
+                style="@style/answerButtons.margin"
+                android:text="@string/question8answer2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/brahms"
+                style="@style/answerButtons"
+                android:text="@string/question8answer3" />
+
+
+        </RadioGroup>
+
+        <View style="@style/stripe" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question9" />
+
+        <LinearLayout style="@style/linearLayoutHorizontal.1">
+
+            <ImageButton
+                android:id="@+id/play1"
+                style="@style/playerButtons"
+                android:background="@drawable/playbutton" />
+
+            <ImageButton
+                android:id="@+id/pause1"
+                style="@style/playerButtons.middle"
+                android:background="@drawable/pausebutton" />
+
+            <ImageButton
+                android:id="@+id/stop1"
+                style="@style/playerButtons"
+                android:background="@drawable/stopbutton" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/composer1"
+            style="@style/inputTextField" />
+
+        <View style="@style/stripe.editText" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question10" />
+
+        <LinearLayout style="@style/linearLayoutVertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/mahler"
+                style="@style/answerButtons"
+                android:text="@string/question10answer1" />
+
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/shostakovich"
+                style="@style/answerButtons.margin"
+                android:text="@string/question10answer2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skriabin"
+                style="@style/answerButtons"
+                android:text="@string/question10answer3" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/liszt"
+                style="@style/answerButtons.margin"
+                android:text="@string/question10answer4" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/barber"
+                style="@style/answerButtons"
+                android:text="@string/question10answer5" />
+        </LinearLayout>
+
+        <View style="@style/stripe" />
+
+
+        <LinearLayout style="@style/linearLayoutHorizontal.1.1">
+
+            <Button
+                style="@style/button.1"
+                android:background="@drawable/reset"
+                android:onClick="resetAnswers"
+                android:text="@string/resetButton" />
+
+            <Button
+                android:id="@+id/submitButton"
+                style="@style/button"
+                android:background="@drawable/submit"
+                android:onClick="submitAnswers"
+                android:text="@string/submitButton" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

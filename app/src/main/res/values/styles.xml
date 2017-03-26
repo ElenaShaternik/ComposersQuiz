@@ -1,0 +1,167 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+    </style>
+
+    <style name="scrollLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="parentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/backroundLayout</item>
+    </style>
+
+    <style name="imageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/grandpiano</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+    <style name="questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/questionsTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">@dimen/questions_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/question_marginBottom</item>
+        <item name="android:paddingLeft">@dimen/paddingLeftRight</item>
+        <item name="android:paddingRight">@dimen/paddingLeftRight</item>
+        <item name="android:paddingTop">@dimen/questions_paddingTop</item>
+        <item name="android:paddingBottom">@dimen/question_paddingBottom</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="questions.question3">
+        <item name="android:layout_marginBottom">@dimen/question3marginBottom</item>
+    </style>
+
+    <style name="stripe">
+        <item name="android:layout_marginTop">@dimen/stripe_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/question_marginBottom</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/stripe</item>
+    </style>
+
+    <style name="stripe.editText">
+        <item name="android:layout_marginTop">@dimen/stripe_editTextMarginTop</item>
+    </style>
+
+
+    <style name="answersRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="answersRadioGroupVertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="answersRadioGroupVertical.2">
+        <item name="android:layout_marginTop">@dimen/RadioGroupMarginTop</item>
+    </style>
+
+    <style name="answerButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/questionsTextColor</item>
+        <item name="android:buttonTint">@color/answerButton</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="answerButtons.margin">
+        <item name="android:layout_marginTop">@dimen/buttonMarginsTopBottom</item>
+        <item name="android:layout_marginBottom">@dimen/buttonMarginsTopBottom</item>
+    </style>
+
+    <style name="answerButtons.middle">
+        <item name="android:layout_marginLeft">@dimen/middleButtonMargin</item>
+        <item name="android:layout_marginRight">@dimen/middleButtonMargin</item>
+
+    </style>
+
+    <style name="linearLayoutVertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearLayoutHorizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/horizontalLinearLayoutMarginBottom</item>
+    </style>
+
+    <style name="linearLayoutHorizontal.1">
+        <item name="android:layout_marginBottom">@dimen/question_marginBottom</item>
+    </style>
+
+    <style name="linearLayoutHorizontal.1.1">
+        <item name="android:layout_marginTop">@dimen/RadioGroupMarginTop</item>
+    </style>
+
+    <style name="stave">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/bach</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="inputTextField">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/editTextPaddingLeftRight</item>
+        <item name="android:paddingRight">@dimen/editTextPaddingLeftRight</item>
+        <item name="android:paddingTop">@dimen/editTextPaddingTopBottom</item>
+        <item name="android:paddingBottom">@dimen/editTextPaddingTopBottom</item>
+        <item name="android:layout_marginTop">@dimen/editTextMarginTop</item>
+        <item name="android:hint">@string/hint1</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/editTextBackground</item>
+        <item name="android:textColorHint">@color/questionsTextColor</item>
+        <item name="android:textColor">@color/questionsTextColor</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="playerButtons">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="playerButtons.middle">
+        <item name="android:layout_marginLeft">@dimen/playerMiddleButtonMarginLeftRight</item>
+        <item name="android:layout_marginRight">@dimen/playerMiddleButtonMarginLeftRight</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/questionsTextColor</item>
+    </style>
+
+    <style name="button.1">
+        <item name="android:layout_marginRight">@dimen/buttonMarginRight</item>
+    </style>
+</resources>

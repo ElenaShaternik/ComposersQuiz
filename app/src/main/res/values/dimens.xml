@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="questions_marginTop">10dp</dimen>
+    <dimen name="question_marginBottom">16dp</dimen>
+    <dimen name="questions_paddingTop">16dp</dimen>
+    <dimen name="question_paddingBottom">16dp</dimen>
+    <dimen name="question3marginBottom">0dp</dimen>
+    <dimen name="middleButtonMargin">50dp</dimen>
+    <dimen name="editTextMarginTop">20dp</dimen>
+    <dimen name="editTextMarginBottom">2dp</dimen>
+    <dimen name="editTextPaddingLeftRight">10dp</dimen>
+    <dimen name="editTextPaddingTopBottom">5dp</dimen>
+    <dimen name="playerMiddleButtonMarginLeftRight">20dp</dimen>
+    <dimen name="RadioGroupMarginTop">16dp</dimen>
+    <dimen name="buttonMarginRight">60dp</dimen>
+    <dimen name="paddingLeftRight">16dp</dimen>
+    <dimen name="horizontalLinearLayoutMarginBottom">10dp</dimen>
+    <dimen name="stripe_marginTop">42dp</dimen>
+    <dimen name="stripe_editTextMarginTop">48dp</dimen>
+    <dimen name="buttonMarginsTopBottom">8dp</dimen>
+
+
+</resources>
