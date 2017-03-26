@@ -9,7 +9,6 @@
     <dimen name="question3marginBottom">0dp</dimen>
     <dimen name="middleButtonMargin">50dp</dimen>
     <dimen name="editTextMarginTop">20dp</dimen>
-    <dimen name="editTextMarginBottom">2dp</dimen>
     <dimen name="editTextPaddingLeftRight">10dp</dimen>
     <dimen name="editTextPaddingTopBottom">5dp</dimen>
     <dimen name="playerMiddleButtonMarginLeftRight">20dp</dimen>
