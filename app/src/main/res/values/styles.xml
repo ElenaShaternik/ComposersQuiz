@@ -13,13 +13,18 @@
         <item name="android:layout_height">fill_parent</item>
     </style>
 
+    <style name="toastLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
     <style name="parentLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:descendantFocusability">beforeDescendants</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:background">@color/backroundLayout</item>
+        <item name="android:background">@color/backgroundLayout</item>
     </style>
 
     <style name="imageView">
@@ -27,8 +32,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:src">@drawable/grandpiano</item>
         <item name="android:scaleType">centerCrop</item>
-
     </style>
+
+    <style name="toastImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
     <style name="questions">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -51,7 +62,7 @@
     <style name="stripe">
         <item name="android:layout_marginTop">@dimen/stripe_marginTop</item>
         <item name="android:layout_marginBottom">@dimen/question_marginBottom</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">@dimen/stripe_height</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:background">@color/stripe</item>
     </style>
@@ -164,4 +175,15 @@
     <style name="button.1">
         <item name="android:layout_marginRight">@dimen/buttonMarginRight</item>
     </style>
+
+    <style name="toastText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">@dimen/toast_margin</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:padding">@dimen/toast_padding</item>
+        <item name="android:textColor">@color/questionsTextColor</item>
+    </style>
+
 </resources>

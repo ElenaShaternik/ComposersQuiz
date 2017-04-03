@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="backroundLayout">#0C0704</color>
+    <color name="backgroundLayout">#0C0704</color>
     <color name="questionsTextColor">#FFFFFF</color>
     <color name="stripe">#FFF15F</color>
     <color name="answerButton">#E5B456</color>

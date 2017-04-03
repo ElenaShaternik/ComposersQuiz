@@ -17,7 +17,13 @@
     <dimen name="buttonMarginRight">60dp</dimen>
     <dimen name="paddingLeftRight">16dp</dimen>
     <dimen name="horizontalLinearLayoutMarginBottom">10dp</dimen>
+    <dimen name="stripe_height">1dp</dimen>
     <dimen name="stripe_marginTop">42dp</dimen>
     <dimen name="stripe_editTextMarginTop">48dp</dimen>
     <dimen name="buttonMarginsTopBottom">8dp</dimen>
+    <dimen name="rounded_corner">1dp</dimen>
+    <dimen name="rounded_corners_radius">5dp</dimen>
+    <dimen name="toast_margin">16dp</dimen>
+    <dimen name="toast_padding">16dp</dimen>
+
 </resources>

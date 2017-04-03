@@ -41,4 +41,5 @@
     <string name="resetButton">Reset</string>
     <string name="answer3">Bach</string>
     <string name="answer9">Wagner</string>
+    <string name="toastImageDescription">Burning grand piano</string>
 </resources>
