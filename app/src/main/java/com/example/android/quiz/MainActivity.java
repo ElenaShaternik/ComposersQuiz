@@ -43,6 +43,18 @@ public class MainActivity extends AppCompatActivity {
     /*
     ** declaring of all the global variables
      */
+    static final String STATE_NumberOfCorrectAnswers = "correctAnswers";
+    static final String STATE_ResultQuestion1 = "resultQuestion1";
+    static final String STATE_ResultQuestion2 = "resultQuestion2";
+    static final String STATE_ResultQuestion3 = "resultQuestion3";
+    static final String STATE_ResultQuestion4 = "resultQuestion4";
+    static final String STATE_ResultQuestion5 = "resultQuestion5";
+    static final String STATE_ResultQuestion6 = "resultQuestion6";
+    static final String STATE_ResultQuestion7 = "resultQuestion7";
+    static final String STATE_ResultQuestion8 = "resultQuestion8";
+    static final String STATE_ResultQuestion9 = "resultQuestion9";
+    static final String STATE_ResultQuestion10 = "resultQuestion10";
+
     int numberOfCorrectAnswers = 0;
     String resultQuestion1;
     String resultQuestion2;
@@ -98,38 +110,20 @@ public class MainActivity extends AppCompatActivity {
     ** Saves the value of number of correct answers and results
      */
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putInt("numberOfCorrectAnswers", numberOfCorrectAnswers);
-        outState.putString("resultQuestion1", resultQuestion1);
-        outState.putString("resultQuestion2", resultQuestion2);
-        outState.putString("resultQuestion3", resultQuestion3);
-        outState.putString("resultQuestion4", resultQuestion4);
-        outState.putString("resultQuestion5", resultQuestion5);
-        outState.putString("resultQuestion6", resultQuestion6);
-        outState.putString("resultQuestion7", resultQuestion7);
-        outState.putString("resultQuestion8", resultQuestion8);
-        outState.putString("resultQuestion9", resultQuestion9);
-        outState.putString("resultQuestion10", resultQuestion10);
-    }
-
-    /*
-    ** Restores values of number of correct answers and results
-     */
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        numberOfCorrectAnswers = savedInstanceState.getInt("numberOfCorrectAnswers");
-        resultQuestion1 = savedInstanceState.getString("resultQuestion1");
-        resultQuestion2 = savedInstanceState.getString("resultQuestion2");
-        resultQuestion3 = savedInstanceState.getString("resultQuestion3");
-        resultQuestion4 = savedInstanceState.getString("resultQuestion4");
-        resultQuestion5 = savedInstanceState.getString("resultQuestion5");
-        resultQuestion6 = savedInstanceState.getString("resultQuestion6");
-        resultQuestion7 = savedInstanceState.getString("resultQuestion7");
-        resultQuestion8 = savedInstanceState.getString("resultQuestion8");
-        resultQuestion9 = savedInstanceState.getString("resultQuestion9");
-        resultQuestion10 = savedInstanceState.getString("resultQuestion10");
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        // Save the user's current game state
+        savedInstanceState.putInt(STATE_NumberOfCorrectAnswers, numberOfCorrectAnswers);
+        savedInstanceState.putString(STATE_ResultQuestion1, resultQuestion1);
+        savedInstanceState.putString(STATE_ResultQuestion2, resultQuestion2);
+        savedInstanceState.putString(STATE_ResultQuestion3, resultQuestion3);
+        savedInstanceState.putString(STATE_ResultQuestion4, resultQuestion4);
+        savedInstanceState.putString(STATE_ResultQuestion5, resultQuestion5);
+        savedInstanceState.putString(STATE_ResultQuestion6, resultQuestion6);
+        savedInstanceState.putString(STATE_ResultQuestion7, resultQuestion7);
+        savedInstanceState.putString(STATE_ResultQuestion8, resultQuestion8);
+        savedInstanceState.putString(STATE_ResultQuestion9, resultQuestion9);
+        savedInstanceState.putString(STATE_ResultQuestion10, resultQuestion10);
     }
 
 
@@ -137,6 +131,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Check whether we're recreating a previously destroyed instance
+        if (savedInstanceState != null) {
+            // Restore value of members from saved state
+            numberOfCorrectAnswers = savedInstanceState.getInt(STATE_NumberOfCorrectAnswers);
+            resultQuestion1 = savedInstanceState.getString(STATE_ResultQuestion1);
+            resultQuestion2 = savedInstanceState.getString(STATE_ResultQuestion2);
+            resultQuestion3 = savedInstanceState.getString(STATE_ResultQuestion3);
+            resultQuestion4 = savedInstanceState.getString(STATE_ResultQuestion4);
+            resultQuestion5 = savedInstanceState.getString(STATE_ResultQuestion5);
+            resultQuestion6 = savedInstanceState.getString(STATE_ResultQuestion6);
+            resultQuestion7 = savedInstanceState.getString(STATE_ResultQuestion7);
+            resultQuestion8 = savedInstanceState.getString(STATE_ResultQuestion8);
+            resultQuestion9 = savedInstanceState.getString(STATE_ResultQuestion9);
+            resultQuestion10 = savedInstanceState.getString(STATE_ResultQuestion10);
+        }
 
         /*
         ** A list of all the findViewById()
