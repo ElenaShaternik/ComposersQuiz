@@ -31,7 +31,7 @@ import static com.example.android.quiz.R.id.seventeen;
 import static com.example.android.quiz.R.id.shostakovich;
 import static com.example.android.quiz.R.id.skriabin;
 import static com.example.android.quiz.R.id.strauss;
-import static com.example.android.quiz.R.id.toastlayout;
+import static com.example.android.quiz.R.id.toastLayout;
 import static com.example.android.quiz.R.id.tosca;
 import static com.example.android.quiz.R.layout.toast;
 
@@ -469,7 +469,7 @@ public class MainActivity extends AppCompatActivity {
         ** Finds a customized toast layout
          */
         LayoutInflater inflater = getLayoutInflater();
-        View layout = inflater.inflate(toast, (ViewGroup) findViewById(toastlayout));
+        View layout = inflater.inflate(toast, (ViewGroup) findViewById(toastLayout));
 
         /*
         ** Sets an image to the customized toast layout

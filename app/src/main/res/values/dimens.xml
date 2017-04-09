@@ -25,5 +25,6 @@
     <dimen name="rounded_corners_radius">5dp</dimen>
     <dimen name="toast_margin">16dp</dimen>
     <dimen name="toast_padding">16dp</dimen>
+    <dimen name="image_paddingBottom">5dp</dimen>
 
 </resources>

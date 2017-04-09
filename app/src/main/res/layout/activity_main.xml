@@ -11,7 +11,8 @@
 
         <ImageView
             android:id="@+id/piano"
-            style="@style/imageView" />
+            style="@style/imageView"
+            />
 
 
         <TextView
