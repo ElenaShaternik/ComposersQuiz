@@ -28,5 +28,7 @@
     <dimen name="image_paddingBottom">5dp</dimen>
     <dimen name="submitButton_radius">3dp</dimen>
     <dimen name="submitButton_stroke_width">1dp</dimen>
+    <dimen name="resetButton_radius">3dp</dimen>
+    <dimen name="resetButton_stroke_width">1dp</dimen>
 
 </resources>

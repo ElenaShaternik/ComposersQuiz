@@ -4,7 +4,7 @@
     <shape android:shape="rectangle"  >
         <corners android:radius="@dimen/submitButton_radius" />
         <stroke android:width="@dimen/submitButton_stroke_width" android:color="@color/submitButton_stroke_color" />
-        <gradient android:angle="-90" android:startColor="@color/submitButton_gradient_startColor" android:endColor="@color/submitButton_pressed_gradient_endColor"  />
+        <gradient android:angle="-90" android:startColor="@color/submitButton_pressed_gradient_startColor" android:endColor="@color/submitButton_pressed_gradient_endColor"  />
     </shape>
 </item>
 <item android:state_focused="true">
@@ -18,7 +18,7 @@
     <shape android:shape="rectangle"  >
         <corners android:radius="@dimen/submitButton_radius" />
         <stroke android:width="@dimen/submitButton_stroke_width" android:color="@color/submitButton_stroke_color" />
-        <gradient android:angle="-90" android:startColor="@color/submitButton_gradient_startColor" android:endColor="@color/submitButton_default_gradient_endColor" />
+        <gradient android:angle="-90" android:startColor="@color/submitButton_default_gradient_startColor" android:endColor="@color/submitButton_default_gradient_endColor" />
     </shape>
 </item>
 </selector>

@@ -11,8 +11,15 @@
     <color name="editTextBackground">#4C1101</color>
     <color name="toast">#B3000000</color>
     <color name="submitButton_stroke_color">#2248A2</color>
-    <color name="submitButton_gradient_startColor">#1E3F8F</color>
+    <color name="submitButton_pressed_gradient_startColor">#1E3F8F</color>
     <color name="submitButton_pressed_gradient_endColor">#2F64E0</color>
+    <color name="submitButton_default_gradient_startColor">#2F64E0</color>
     <color name="submitButton_default_gradient_endColor">#1E3F8F</color>
+    <color name="resetButton_stroke_color">#E8A53C</color>
+    <color name="resetButton_pressed_gradient_startColor">#AD7D2D</color>
+    <color name="resetButton_pressed_gradient_endColor">#F5B03F</color>
+    <color name="resetButton_focused_solidColor">#58857e</color>
+    <color name="resetButton_default_gradient_startColor">#F5B03F</color>
+    <color name="resetButton_default_gradient_endColor">#AD7D2D</color>
 </resources>
 
